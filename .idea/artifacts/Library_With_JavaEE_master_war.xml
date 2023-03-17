@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Library_With_JavaEE-master:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Library_With_JavaEE-master</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="libraryEE-0.1.war">
+      <element id="artifact" artifact-name="Library_With_JavaEE-master:war exploded" />
+    </root>
+  </artifact>
+</component>
